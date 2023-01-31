@@ -1,18 +1,18 @@
-### installation
+### Simple React Component
+This is a simple demo button component that takes in one prop (title)
 
-````npm i h1demo
+# installation
 
-```jsx
+  npm i h1demo
+  
+# Example
+
+```javascript
 import { FancyButton } from "h1demo";
-
 
 export default function Home() {
   return (
-    <>
-
       <FancyButton title="hello world" />
-
-    </>
-  );
+      );
 }
 ````
