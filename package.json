@@ -1,7 +1,7 @@
 {
-  "name": "h1demo",
-  "version": "1.0.2",
-  "description": "creating a demo react package",
+  "name": "react_button_component_demo",
+  "version": "1.0.1",
+  "description": "A simple react package of a button component.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "scripts": {
@@ -20,7 +20,8 @@
     "url": "git+https://github.com/vrichie/packagedemo.git"
   },
   "keywords": [
-    "h1demo"
+    "button demo",
+    "react_button_component_demo"
   ],
   "author": "dev.richie",
   "license": "ISC",
