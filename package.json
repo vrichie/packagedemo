@@ -1,0 +1,39 @@
+{
+  "name": "h1demo",
+  "version": "1.0.0",
+  "description": "creating a demo react package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o dist/index.js"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrichie/packagedemo.git"
+  },
+  "keywords": [
+    "h1demo"
+  ],
+  "author": "dev.richie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrichie/packagedemo/issues"
+  },
+  "homepage": "https://github.com/vrichie/packagedemo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.18.6"
+  }
+}
