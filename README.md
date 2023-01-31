@@ -9,7 +9,7 @@ npm i react_button_component_demo
 # Example
 
 ```javascript
-import { FancyButton } from "h1demo";
+import { FancyButton } from "react_button_component_demo";
 
 export default function Home() {
   return <FancyButton title="hello world" />;
