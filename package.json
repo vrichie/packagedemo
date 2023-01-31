@@ -13,7 +13,9 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "License",
+    "package.json"
   ],
   "repository": {
     "type": "git",
